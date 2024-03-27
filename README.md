@@ -4,7 +4,7 @@ This Python script efficiently handles the renaming of files in a specified fold
    - Extract data from each file, focusing on the first 10 lines to locate an 8-digit student ID.
 
 2. **Matching Student IDs with Project Names:**
-   - Matches extracted student IDs with project names from the Excel file, searching within the designated "รหัสนิสิต" (student ID) column.
+   - Matches extracted student IDs with project names from the Excel file, searching within the designated (student ID) column.
 
 3. **Renaming Files:**
    - Renames  files using the student ID and project name. Handles scenarios where multiple students collaborate on a project by appending a counter for uniqueness.
